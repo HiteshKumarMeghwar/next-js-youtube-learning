@@ -1,20 +1,8 @@
-import Link from "next/link"
+import Nav from '../components/Nav.js'
 const index = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <Link href='/'>
-            Home
-          </Link>
-          <Link href='/contact'>
-            Contact
-          </Link>
-          <Link href='/about'>
-            About
-          </Link>
-        </ul>
-      </nav>
+      <Nav />
     </>
   )
 }
